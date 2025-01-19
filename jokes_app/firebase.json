@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mis-jokes-app",
+          "appId": "1:71359188037:android:15734bf3bd26f266d7e72c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "mis-jokes-app",
+          "appId": "1:71359188037:ios:6ad9429b332bb781d7e72c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mis-jokes-app",
+          "configurations": {
+            "android": "1:71359188037:android:15734bf3bd26f266d7e72c",
+            "ios": "1:71359188037:ios:6ad9429b332bb781d7e72c"
+          }
+        }
+      }
+    }
+  }
+}
